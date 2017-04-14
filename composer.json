@@ -1,0 +1,23 @@
+{
+    "name": "otobank/gcputils",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/otobank/gcputils-php",
+    "authors": [
+        {
+            "name": "Keisuke Sato",
+            "email": "ksato@otobank.co.jp"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/otobank/gcputils-php/issues"
+    },
+    "suggest": {
+        "google/appengine-php-sdk": "Google App Engine PHP SDK"
+    },
+    "autoload": {
+        "psr-4": {
+            "GCPUtils\\": "src/"
+        }
+    }
+}
