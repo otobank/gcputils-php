@@ -19,7 +19,7 @@ Usage
 
 #### Generate signed URL to provide query-string auth'n to a resource
 
-```
+```php
 <?php
 
 use GCPUtils\CloudStorage;
